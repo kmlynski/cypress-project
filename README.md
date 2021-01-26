@@ -13,8 +13,14 @@ $ npm init -y
 $ npm install cypress
 ```
 
-# How to run tests
+# How to run tests in browser
 
 ```sh
 $ npx cypress open
+```
+# How to run tests in headless mode
+
+```sh
+$ npx cypress run
+$ npx cypress run --spec cypress/integration/login.spec.js
 ```
