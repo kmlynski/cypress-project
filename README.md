@@ -32,3 +32,18 @@ $ npx cypress run
 ```sh
 $ npx cypress run --spec cypress/integration/login.spec.js
 ```
+
+# Parallel visual tests - experiment with Applitools
+```sh
+set APPLITOOLS_API_KEY=<API_KEY>
+```
+```sh
+npm install @applitools/eyes-cypress
+npm install @applitools/visual-grid-client
+```
+```sh
+npx eyes-setup
+```
+```sh
+$ npx cypress run --spec cypress/integration/visuals.spec.js
+```
