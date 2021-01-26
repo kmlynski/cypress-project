@@ -18,9 +18,17 @@ $ npm install cypress
 ```sh
 $ npx cypress open
 ```
+```sh
+$ npm run cypress
+```
 # How to run tests in headless mode
 
 ```sh
+$ npm test
+```
+```sh
 $ npx cypress run
+```
+```sh
 $ npx cypress run --spec cypress/integration/login.spec.js
 ```
