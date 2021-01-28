@@ -14,4 +14,7 @@ export class LandingPage {
         cy.get('#login-button').click()
     }
     
+    assertThatUserIsOnLandingPage(){
+        cy.get('#login-button').should('be.visible')
+    }
 }
